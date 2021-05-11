@@ -1,5 +1,5 @@
 ![Image text](https://img.lemde.fr/2020/09/21/33/0/766/383/1440/720/75/0/0316a4d_46866764-dash-discord.jpg)
-## Table of Contents
+## Table des matières
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Fonctionnement](#technologies)
