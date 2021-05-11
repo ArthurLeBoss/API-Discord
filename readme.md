@@ -1,49 +1,21 @@
+![Image text](https://img.lemde.fr/2020/09/21/33/0/766/383/1440/720/75/0/0316a4d_46866764-dash-discord.jpg)
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Fonctionnement](#technologies)
+### Introduction ❗
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
-***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+Bonjour, sur ce projet git, vous y trouverer un bot discord qui recence les informations à propos du covid 19. J'ai récupéré ces chiffres grâce à une api : https://covid19.mathdro.id/api . Avec ce bot discord, vous pouvez récupérer les statistiques mondiales du covid-19 ou les statistiques par Pays du covid-19. Malheureusement, l'api ne propose pas d'autres fonctionnalités comme récupérer les statistiques selon les villes du pays en question. 
 ## Installation
 ***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
+* Pour installé le bot discord, il faut au préalable en créer un à l'adresse suivante : https://discord.com/developers/applications/
+* Une fois que cela est fait, il faut donner la permission à votre bot et ainsi pouvoir l'installer sur votre serveur : https://discordapi.com/permissions.html
+* Enfin, installer node js et c'est parti.
+## Fonctionnemennt
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Le bot discord dispose de trois commandes :
+* -covid help : Cette commande à la même utilité que ce readme.
+* -covid all : Permet de connaître les statistiques du covid du monde entier.
+* -covid (pays) : Permet de connaître les statistiques du covid selon le pays demandé. Exemple : -covid France.
+* ❗ A savoir, les pays doivent être écrit en Anglais.
+Pour plus d'information, voici mon rapport : https://fr.overleaf.com/read/zxmxxmwnpjxt
