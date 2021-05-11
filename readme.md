@@ -11,6 +11,8 @@ Bonjour, sur ce projet git, vous y trouverer un bot discord qui recence les info
 * Pour installé le bot discord, il faut au préalable en créer un à l'adresse suivante : https://discord.com/developers/applications/
 * Une fois que cela est fait, il faut donner la permission à votre bot et ainsi pouvoir l'installer sur votre serveur : https://discordapi.com/permissions.html
 * Enfin, installer node js et c'est parti.
+
+Pour plus d'information, voici notre rapport de projet de groupe : 
 ## Fonctionnemennt
 ***
 Le bot discord dispose de trois commandes :
@@ -18,4 +20,4 @@ Le bot discord dispose de trois commandes :
 * -covid all : Permet de connaître les statistiques du covid du monde entier.
 * -covid (pays) : Permet de connaître les statistiques du covid selon le pays demandé. Exemple : -covid France.
 * ❗ A savoir, les pays doivent être écrit en Anglais.
-Pour plus d'information, voici mon rapport : https://fr.overleaf.com/read/zxmxxmwnpjxt
+Pour plus d'information, voici mon rapport de projet personnel : https://fr.overleaf.com/read/zxmxxmwnpjxt
