@@ -14,7 +14,7 @@ module.exports = {
         const noArgs = new Discord.MessageEmbed()
         .setTitle("Une erreur est survenue, qu\'est-ce t\'as fichu ?")
         .setColor(0xFF0000)
-        .setDescription("Il manque un argument (ex: -covid France ou -covid Belgium)")
+        .setDescription("Il manque un argument (ex: -covid France / -covid Belgium / -covid all / -covid help)")
         .setTimestamp()
         // Const message erreur
         const invalid = new Discord.MessageEmbed()
